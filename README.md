@@ -11,3 +11,5 @@ Here, I will log my progress and notes on what I've worked on.
 - Implemented validation to ensure that both passwords match.
 - Validated for null values in the name, password, and email fields.
 - Employed regular expressions to validate email format
+
+### Practise session 2: [27-9-23]
