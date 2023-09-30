@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags --> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@400;700&family=Raleway:wght@200;500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Login form</title>
+  </head>
+  <body>
+    <div class="body1">
+    <div class="container con-class">
+      <div class="row justify-content-center w-100">
+        <div class="col-11 m-3 con-class1 bg-white">
+    <form>
+      <h1 class="text-center font-fam m-3 font-weight-bold">Sign in</h1>
+      <div class="form-group m-3 font-fam">
+          <label>Email address<span style="color: red;">*</span></label>
+          <input type="email" class="form-control text" id="email" placeholder="name@example.com">
+          <span id="errormail">Please Enter your email</span>
+        <label id="errormail_format">Enter Valid email</label>
+        </div>
+
+
+        <div class="form-group m-3 font-fam">
+          <label>Username<span style="color: red;">*</span></label>
+          <input type="text" class="form-control text" id="username">
+          <span id="errorname">Please Enter your Name</span>
+        <label id="errorname_format">Enter Valid Name</label>
+        </div>
+  
+      <div class="m-3 font-fam">
+        <label>Password<span style="color: red;">*</span></label>
+        <input type="password" class="form-control" id="password">
+       
+      </div>
+
+      <div class="m-3 font-fam">
+        <label>Confirm Password<span style="color: red;">*</span></label>
+        <input type="password" class="form-control" id="confirm_password">
+        <label id="pass2">Passwords do not match</label>
+      </div>
+
+      <div class="m-3 font-fam">
+        <label>Phone number<span style="color: red;">*</span></label>
+        <input type="text" class="form-control" id="phno">
+        <label id="errorph">Please Enter Your Number</label>
+        <label id="errorph_format">Please Enter Valid Number</label>
+      </div>
+
+
+
+     <div class="text-center">
+      <button type="button" class="btn btn-primary btn-color m-3 font-fam " id="myButton" onclick="validateForm()">Submit</button>
+    </div>
+    </form>
+  </div>
+  </div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="Script.js"></script>     
+    </body>
+    </html>
