@@ -10,6 +10,8 @@ Here, I will log my progress and notes on what I've worked on.
 - Worked on a form validation script.
 - Implemented validation to ensure that both passwords match.
 - Validated for null values in the name, password, and email fields.
-- Employed regular expressions to validate email format
+- Employed regular expressions to validate email format.
 
-### Practise session 2: [27-9-23]
+### Practise session 2 [29-9-23]:
+- Worked on functions like trim and length to validate spaces.
+- Continued to enhance understanding of external script inclusion by adding JavaScript functions from external files.
