@@ -27,4 +27,3 @@ One of the key practical applications of these string manipulation functions is 
 - **`toLowerCase` and `toUpperCase`**: These functions help standardize user input by converting it to lowercase or uppercase, making it easier to compare and validate.
 
 - **`replace`**: `replace` allows you to replace specific characters or patterns in user input. This is useful for tasks like sanitizing input or formatting it consistently.
-
