@@ -28,9 +28,9 @@ One of the key practical applications of these string manipulation functions is 
 
 - **`replace`**: `replace` allows you to replace specific characters or patterns in user input. This is useful for tasks like sanitizing input or formatting it consistently.
 
-  ### Practise session 4 [5-10-23]:
-  Problem: To identify the duplicate element in an array and to store them separately.
-  I have learned two new methods in js using that i solved this.
+### Practise session 4 [5-10-23]:
+Problem: To identify the duplicate element in an array and to store them separately.
+I have learned two new methods in js using that i solved this.
   
 - **`indexof()`**: The `indexOf()` method is used to find the index of the first occurrence of a specified element in an array.
   
