@@ -27,3 +27,17 @@ One of the key practical applications of these string manipulation functions is 
 - **`toLowerCase` and `toUpperCase`**: These functions help standardize user input by converting it to lowercase or uppercase, making it easier to compare and validate.
 
 - **`replace`**: `replace` allows you to replace specific characters or patterns in user input. This is useful for tasks like sanitizing input or formatting it consistently.
+
+  ### Practise session 4 [5-10-23]:
+  Problem: To identify the duplicate element in an array and to store them separately.
+  I have learned two new methods in js using that i solved this.
+  
+- **`indexof()`**: The `indexOf()` method is used to find the index of the first occurrence of a specified element in an array.
+Usage in Solving the Problem: By iterating through the original array and using `indexOf()`, we can check if an element already exists in the result array (which stores unrepeated elements). If it does not exist, the element is added to the result array; otherwise, it is considered a duplicate and is stored separately.
+Return Value of indexOf(): The indexOf() method returns the first index at which the specified element can be found in the array, or -1 if the element is not found.
+
+- **`includes()`**: The includes() method checks if an array includes a certain element, returning true if found and false otherwise.
+  
+- Additionally i have solved using **nested-for**
+
+  
