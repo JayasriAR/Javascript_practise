@@ -51,13 +51,13 @@ If it does not exist, the element is added to the result array; otherwise, it is
 - **`unshift()`:**
   The unshift() function is used to add one or more elements to the beginning of an array.
   
--**`substr()`:** 
+- **`substr()`:** 
   The `substr()` function is used to extract a portion of a string based on specified start and end positions.
   **Real-time application** - Websites like Flipkart utilize the `substring` function to provide a glimpse of product descriptions.
   When users click on a product, this function allows the website to display a limited portion of the text. 
   After clicking, the entire product description becomes visible, enhancing user experience by efficiently managing content visibility.
 
--**parseInt():** 
+- **parseInt():** 
   The parseInt() function is used to convert a string into an integer.
 
   
