@@ -57,7 +57,7 @@ If it does not exist, the element is added to the result array; otherwise, it is
   When users click on a product, this function allows the website to display a limited portion of the text. 
   After clicking, the entire product description becomes visible, enhancing user experience by efficiently managing content visibility.
 
-- **parseInt():** 
-  The parseInt() function is used to convert a string into an integer.
+- **`parseInt()`:** 
+  The `parseInt()` function is used to convert a string into an integer.
 
   
