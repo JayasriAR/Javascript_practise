@@ -43,4 +43,21 @@ If it does not exist, the element is added to the result array; otherwise, it is
   
 - Additionally i have solved using **nested-for**
 
+### Practise session 5 [6-10-23]:
+
+- **`shift()`:**
+  The `shift()` function is used to remove the first element from an array.
+  
+- **`unshift()`:**
+  The unshift() function is used to add one or more elements to the beginning of an array.
+  
+-**`substr()`:** 
+  The `substr()` function is used to extract a portion of a string based on specified start and end positions.
+  **Real-time application** - Websites like Flipkart utilize the `substring` function to provide a glimpse of product descriptions.
+  When users click on a product, this function allows the website to display a limited portion of the text. 
+  After clicking, the entire product description becomes visible, enhancing user experience by efficiently managing content visibility.
+
+-**parseInt():** 
+  The parseInt() function is used to convert a string into an integer.
+
   
