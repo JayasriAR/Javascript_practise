@@ -60,4 +60,34 @@ If it does not exist, the element is added to the result array; otherwise, it is
 - **`parseInt()`:** 
   The `parseInt()` function is used to convert a string into an integer.
 
-  
+  ### Practise session 6:
+  ## Difference between var, let, const
+  ## var
+
+- `var` allows both redeclaration and reassignment.
+- You can declare the same variable multiple times within the same scope.
+- Example:
+  ```javascript
+  var a = 1;
+  var a = 10;
+  console.log(a); // Output: 10
+
+ ## let
+- You cannot declare the same variable more than once in the same scope.
+- `let` allows reassignment but not redeclaration within the same scope.
+- Example:
+  ```javascript
+  let a = 1;
+  let a = 10; // SyntaxError: Identifier 'a' has already been declared
+  let a = 1; // SyntaxError: Identifier 'a' has already been declared
+  a = 10;
+  console.log(a); // Output: 10
+
+## const
+- const is more strict than let. It does not allow reassignment or redeclaration.
+- You must initialize a const variable when it's declared, and you cannot change its value afterwards.
+- Example:
+  ```javascript
+   const a = 10;
+  const b; // SyntaxError: Missing initializer in const declaration
+  b = 100; // SyntaxError: Assignment to constant variable.
