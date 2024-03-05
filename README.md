@@ -62,7 +62,7 @@ If it does not exist, the element is added to the result array; otherwise, it is
 
   ### Practise session 6:
   ## Difference between var, let, const
-  ## var
+ ## var
 
 - `var` allows both redeclaration and reassignment.
 - You can declare the same variable multiple times within the same scope.
