@@ -93,18 +93,37 @@ If it does not exist, the element is added to the result array; otherwise, it is
    b = 100; // SyntaxError: Assignment to constant variable.
 
   
-###Practise Session 7
+### Practise Session 7
 ## Blocks
  - In JavaScript, you can group multiple statements within a block, which is also known as a compound statement.
  -  Blocks are delineated by curly braces `{}`.
  - Blocks can be used in places where JavaScript expects a single statement.
- - You must initialize a const variable when it's declared, and you cannot change its value afterwards.
  - Example:
-  ```javascript
+   ```javascript
      // group multiple statements in a block it is also known as compound statement
-  {
-      var a = 40;
-      console.log(a); // Output will be 40
- // these group of statements can be used where js except single statement by using block
-  }
+    {
+        var a = 40;
+        console.log(a); // Output will be 40
+   // these group of statements can be used where js except single statement by using block
+    }
+
+## Shadowing
+ - When you declare variables with the same name both inside and outside a block, the inner variable shadows the outer one.
+ -  This means the outer variable becomes inaccessible within the block because the inner one takes precedence.
+ - However, in JavaScript, var does not have block scope, so the value of the variable declared with var inside the block is accessible outside the block as well, and it modifies the outer variable.
+ -Example:
+   ```javascript
+    // shadowing
+   // same named variables
+    var a = 100; 
+    {
+        var a = 10; // This declaration shadows the outer 'a'
+        let b = 20;
+        const c = 30;
+        console.log(a); // Output will be 10
+    }
+    console.log(a); // Output will be 10, because the outer 'a' has been modified by the inner declaration
+
+
+
  
