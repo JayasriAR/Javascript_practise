@@ -109,7 +109,7 @@ If it does not exist, the element is added to the result array; otherwise, it is
 
 ## Shadowing
 
- - "shadowing" refers to the situation where a variable declared within a certain scope (like a block) has the same name as a variable declared in an outer scope, thereby "shadowing" or hiding the outer variable within that scope. In your example, the inner variable `b` declared with `let` shadows the outer variable `b`. This is indeed called shadowing. Thank you for pointing that out.
+ - "shadowing" refers to the situation where a variable declared within a certain scope (like a block) has the same name as a variable declared in an outer scope, thereby "shadowing" or hiding the outer variable within that scope. In your example, the inner variable `b` declared with `let` shadows the outer variable `b`. This is indeed called shadowing. 
  - In JavaScript, variables declared with let are block-scoped, meaning they exist only within the block they are declared in or within nested blocks. This behavior is different from variables declared with var, which have function scope or global scope but not block scope.
  - Example:
     ```javascript
