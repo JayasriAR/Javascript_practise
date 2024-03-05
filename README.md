@@ -89,5 +89,22 @@ If it does not exist, the element is added to the result array; otherwise, it is
 - Example:
   ```javascript
    const a = 10;
-  const b; // SyntaxError: Missing initializer in const declaration
-  b = 100; // SyntaxError: Assignment to constant variable.
+   const b; // SyntaxError: Missing initializer in const declaration
+   b = 100; // SyntaxError: Assignment to constant variable.
+
+  
+###Practise Session 7
+## Blocks
+ - In JavaScript, you can group multiple statements within a block, which is also known as a compound statement.
+ -  Blocks are delineated by curly braces `{}`.
+ - Blocks can be used in places where JavaScript expects a single statement.
+ - You must initialize a const variable when it's declared, and you cannot change its value afterwards.
+ - Example:
+  ```javascript
+     // group multiple statements in a block it is also known as compound statement
+  {
+      var a = 40;
+      console.log(a); // Output will be 40
+ // these group of statements can be used where js except single statement by using block
+  }
+ 
