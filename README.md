@@ -152,7 +152,7 @@ The setTimeout function schedules the execution of the provided callback functio
   a();
 
 - In the above function `a()`, which uses `let` instead of `var` to declare `i`, the output will be `1 2 3 4 5`.
-- This happens because `let` has block scope, meaning each iteration of the loop creates a new lexical environment for the variable `i`.
+- This happens because **`let` has block scope, meaning each iteration of the loop creates a new lexical environment for the variable `i`**.
 - Each `setTimeout` callback captures the value of `i` at the time it was created. So, when the callback executes, it uses the specific value of `i` for that iteration.
 
 
