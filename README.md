@@ -6,7 +6,7 @@ Welcome to my JavaScript practice repository! This is where I document my journe
 
 Here, I will log my progress and notes on what I've worked on.
 
-### Practise session 1: [27-9-23]
+### [Practise session 1:](https://github.com/JayasriAR/Javascript_practise/tree/main/Day1)
 - Worked on a form validation script.
 - Implemented validation to ensure that both passwords match.
 - Validated for null values in the name, password, and email fields.
