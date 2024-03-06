@@ -121,8 +121,39 @@ If it does not exist, the element is added to the result array; otherwise, it is
         console.log(b); // Output will be 20, as it refers to the inner 'b'
     }
     console.log(b); // Output will be 100, referring to the outer 'b'
-    
 
+### Practise Session 8
+## setTimeout
+The setTimeout function schedules the execution of the provided callback function after a specified delay (in milliseconds). 
+- Example:
+  ```javascript
+    function a() {
+      for (var i = 1; i <= 5; i++) {
+        setTimeout(function() {
+          console.log(i);
+        }, (i * 1000));
+      }
+  }
+  a();
+    
+- In the above function `a()`, the output will indeed be `6 6 6 6 6`.
+- This occurs because the `setTimeout` function captures the reference of the variable `i`, not its value.
+- By the time the `setTimeout` callbacks are executed, the loop has already finished, and `i` has a value of 6. Therefore, `console.log(i)` prints `6` for all the callbacks.
+
+  - Example:
+  ```javascript
+    function a() {
+      for (let i = 1; i <= 5; i++) {
+        setTimeout(function() {
+          console.log(i);
+        }, (i * 1000));
+      }
+  }
+  a();
+
+- In the above function `a()`, which uses `let` instead of `var` to declare `i`, the output will be `1 2 3 4 5`.
+- This happens because `let` has block scope, meaning each iteration of the loop creates a new lexical environment for the variable `i`.
+- Each `setTimeout` callback captures the value of `i` at the time it was created. So, when the callback executes, it uses the specific value of `i` for that iteration.
 
 
  
