@@ -155,5 +155,29 @@ The setTimeout function schedules the execution of the provided callback functio
 - This happens because **`let` has block scope, meaning each iteration of the loop creates a new lexical environment for the variable `i`**.
 - Each `setTimeout` callback captures the value of `i` at the time it was created. So, when the callback executes, it uses the specific value of `i` for that iteration.
 
+### Practise Session 9
+## Closures:
 
+ - Closures allow functions to maintain access to variables from their parent scope even after the parent function has finished executing.
+ - They are created when a function is defined within another function, and the inner function references variables from the outer function.
+
+ - **Disadvantages of Closures:**
+
+   - Closures can lead to increased memory consumption as they hold references to their outer scope variables.
+ - **Garbage Collector:**
+
+   - JavaScript's garbage collector frees up memory by removing unused variables from memory.
+
+### Practise Session 10
+## Functions
+**Function statements & Expressions:**
+ - JavaScript supports two main ways of defining functions: function statements and function expressions.
+ - Function expressions define functions as values and can be assigned to variables.
+
+**Named Function Expression:**
+ - A function expression where the function has a name.
+ - 
+**First-Class Functions:**
+ - JavaScript treats functions as first-class citizens, meaning they can be treated like any other variable.
+ - Functions can be passed as arguments to other functions, returned from other functions, and assigned to variables.
  
