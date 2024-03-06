@@ -12,11 +12,11 @@ Here, I will log my progress and notes on what I've worked on.
 - Validated for null values in the name, password, and email fields.
 - Employed regular expressions to validate email format.
 
-### Practise session 2 [29-9-23]:
+### [Practise session 2](https://github.com/JayasriAR/Javascript_practise/tree/main/Day2)
 - Worked on functions like trim and length to validate spaces.
 - Continued to enhance understanding of external script inclusion by adding JavaScript functions from external files.
 
-### Practise session 3 [30-9-23]:
+### [Practise session 3](https://github.com/JayasriAR/Javascript_practise/tree/main/Day3)
 I have learned about builtin functions.
 One of the key practical applications of these string manipulation functions is in form handling. Here's how they can be used in a web form:
 
@@ -28,7 +28,7 @@ One of the key practical applications of these string manipulation functions is 
 
 - **`replace`**: `replace` allows you to replace specific characters or patterns in user input. This is useful for tasks like sanitizing input or formatting it consistently.
 
-### Practise session 4 [5-10-23]:
+### [Practise session 4](https://github.com/JayasriAR/Javascript_practise/tree/main/Day4)
 Problem: To identify the duplicate element in an array and to store them separately.
 I have learned two new methods in js using that i solved this.
   
@@ -43,7 +43,7 @@ If it does not exist, the element is added to the result array; otherwise, it is
   
 - Additionally i have solved using **nested-for**
 
-### Practise session 5 [6-10-23]:
+### [Practise session 5](https://github.com/JayasriAR/Javascript_practise/tree/main/Day5)
 
 - **`shift()`:**
   The `shift()` function is used to remove the first element from an array.
@@ -155,7 +155,7 @@ The setTimeout function schedules the execution of the provided callback functio
 - This happens because **`let` has block scope, meaning each iteration of the loop creates a new lexical environment for the variable `i`**.
 - Each `setTimeout` callback captures the value of `i` at the time it was created. So, when the callback executes, it uses the specific value of `i` for that iteration.
 
-### Practise Session 9
+### [Practise Session 9](https://github.com/JayasriAR/Javascript_practise/tree/main/closure)
 ## Closures:
 
  - Closures allow functions to maintain access to variables from their parent scope even after the parent function has finished executing.
@@ -168,7 +168,7 @@ The setTimeout function schedules the execution of the provided callback functio
 
    - JavaScript's garbage collector frees up memory by removing unused variables from memory.
 
-### Practise Session 10
+### [Practise Session 10](https://github.com/JayasriAR/Javascript_practise/tree/main/first%20class%20functions)
 ## Functions
 **Function statements & Expressions:**
  - JavaScript supports two main ways of defining functions: function statements and function expressions.
